@@ -1,0 +1,13 @@
+[package]
+name = "box-arc-rc-mutex-semaphore"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+
+
+[[example]]
+name = "box_simple_eg"
+path = "src/examples/box_simple_eg.rs"
+
