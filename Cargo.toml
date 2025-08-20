@@ -11,3 +11,8 @@ edition = "2024"
 name = "box_simple_eg"
 path = "src/examples/box_simple_eg.rs"
 
+
+[[example]]
+name = "rc_simple_eg"
+path = "src/examples/rc_simple_eg.rs"
+
