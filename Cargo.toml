@@ -16,3 +16,7 @@ path = "src/examples/box_simple_eg.rs"
 name = "rc_simple_eg"
 path = "src/examples/rc_simple_eg.rs"
 
+
+[[example]]
+name = "arc_simple_eg"
+path = "src/examples/arc_simple_eg.rs"
