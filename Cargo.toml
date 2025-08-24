@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-
+tokio = { version = "1.47.1", features = ["sync","rt","time","rt-multi-thread","macros"] }
 
 
 [[example]]
@@ -25,3 +25,8 @@ path = "src/examples/arc_simple_eg.rs"
 [[example]]
 name = "mutex_simple_eg"
 path = "src/examples/mutex_simple_eg.rs"
+
+
+[[example]]
+name = "semaphore_simple_eg"
+path =  "src/examples/semaphore_simple_eg.rs"
